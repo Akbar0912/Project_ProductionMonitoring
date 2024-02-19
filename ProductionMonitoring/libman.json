@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "bootstrap-icons@1.11.3",
+      "destination": "wwwroot/lib/bootstrap-icons/",
+      "files": [
+        "font/bootstrap-icons.css",
+        "font/fonts/bootstrap-icons.woff",
+        "font/fonts/bootstrap-icons.woff2",
+        "font/bootstrap-icons.min.css",
+        "font/bootstrap-icons.json"
+      ]
+    },
+    {
+      "library": "Chart.js@4.4.1",
+      "destination": "wwwroot/lib/Chart.js/",
+      "files": [
+        "chart.min.js",
+        "chart.cjs.map",
+        "chart.js",
+        "chart.js.map",
+        "types.d.ts",
+        "index.umd.d.ts",
+        "index.d.ts",
+        "helpers.min.js",
+        "helpers.js.map",
+        "helpers.js",
+        "helpers.cjs.map",
+        "chart.umd.min.js",
+        "chart.umd.js.map",
+        "chart.umd.js"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Pagename"] = "Monitoring";
+}
+
+<div class="text-center mt-0">
+    <h1 class="text-uppercase">lsbu production monitoring</h1>
+</div>
+
+<div class="card mb-1">
+    <h5 class="card-header text-uppercase fw-bold text-center">Monitoring</h5>
+    <div class="table-responsive text-nowrap">
+        <table class="table table-striped">
+            <thead class="text-uppercase fw-bold text-center">
+                <tr>
+                    <th class="fs-5 fw-semibold">Date</th>
+                    <th class="fs-5 fw-semibold">Plan</th>
+                    <th class="fs-5 fw-semibold">Target</th>
+                    <th class="fs-5 fw-semibold">Actual</th>
+                    <th class="fs-5 fw-semibold">Dift</th>
+                    <th class="fs-5 fw-semibold">Time</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0 text-center fw-semibold fs-5">
+                <tr>
+                    <td>2024-02-13</td>
+                    <td>500</td>
+                    <td>355</td>
+                    <td>260</td>
+                    <td>-240</td>
+                    <td>10:23:35</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="card">
+    <h5 class="card-header">Planning</h5>
+    <div class="table-responsive text-nowrap">
+        <table class="table">
+            <thead class="text-center">
+                <tr>
+                    <th>No</th>
+                    <th>Model Number</th>
+                    <th>Plan</th>
+                    <th>Actual</th>
+                    <th>Dift</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                <tr>
+                    <td>1</td>
+                    <td>NA-W86BBZ2D</td>
+                    <td>250</td>
+                    <td>200</td>
+                    <td>-50</td>
+                    <td><span class="badge bg-label-primary me-1 text-uppercase">on progress</span></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>NA-W86BBZ2H</td>
+                    <td>250</td>
+                    <td>0</td>
+                    <td>-250</td>
+                    <td><span class="badge bg-label-info me-1 text-uppercase">next plan</span></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>NA-W86FCU1G</td>
+                    <td>250</td>
+                    <td>250</td>
+                    <td>0</td>
+                    <td><span class="badge bg-label-success me-1 text-uppercase">finish</span></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>NA-W96BBZ2H</td>
+                    <td>250</td>
+                    <td>250</td>
+                    <td>0</td>
+                    <td><span class="badge bg-label-success me-1 text-uppercase">finish</span></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>NA-W96FCU1G</td>
+                    <td>250</td>
+                    <td>0</td>
+                    <td>-250</td>
+                    <td><span class="badge bg-label-info me-1 text-uppercase">next plan</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

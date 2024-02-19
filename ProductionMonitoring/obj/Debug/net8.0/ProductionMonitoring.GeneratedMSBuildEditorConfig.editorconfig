@@ -1,0 +1,107 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProductionMonitoring
+build_property.RootNamespace = ProductionMonitoring
+build_property.ProjectDir = D:\Perkuliahan\Semester6\Panasonic\ProductionMonitoring\ProductionMonitoring\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = D:\Perkuliahan\Semester6\Panasonic\ProductionMonitoring\ProductionMonitoring
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/DataUser/AddUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YVVzZXJcQWRkVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/DataUser/DataUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YVVzZXJcRGF0YVVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/ModelNumber/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxOdW1iZXJcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/ModelNumber/ModelNumber.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxOdW1iZXJcTW9kZWxOdW1iZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Monitoring/Monitoring.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uaXRvcmluZ1xNb25pdG9yaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Plan/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhblxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Plan/Plan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhblxQbGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Production/Day.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGlvblxEYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Production/Month.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGlvblxNb250aC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Shared/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Shared/_SideBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlQmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/WorkTime/WorkTime.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya1RpbWVcV29ya1RpbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-u727hvf5hh

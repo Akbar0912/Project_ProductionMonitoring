@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="en"
+
+      data-theme="theme-default"
+      data-assets-path="~/lib/theme/">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - ProductionMonitoring</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>Production Monitoring</title>
+
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="~/lib/theme/img/favicon/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+          rel="stylesheet" />
+
+    <!-- Icons. Uncomment required icon fonts -->
+    <link rel="stylesheet" href="~/lib/theme/vendor/fonts/boxicons.css" />
+    <link href="~/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="~/fontawesome/css/fontawesome.css" rel="stylesheet" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="~/lib/theme/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="~/lib/theme/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="~/sidebar.css"></link>
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="~/lib/theme/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+ 
+    <link rel="stylesheet" href="~/lib/theme/vendor/libs/apex-charts/apex-charts.css" />
+
+    <!-- Page CSS -->
+    <!-- Helpers -->
+    <script src="~/lib/theme/vendor/js/helpers.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="~/lib/theme/js/config.js"></script>
+</head>
+
+<body style="margin: 0px; padding:0px;">
+<div class="layout-wrapper layout-content-navbar">
+    <div class="layout-container">
+        <!-- Menu -->
+           @Html.Partial("_SideBar")
+        <!-- / Menu -->
+
+        <!-- Layout container -->
+        <div class="layout-page">
+            <!-- Navbar -->
+            @Html.Partial("_Navbar")
+            <!-- / Navbar -->
+
+            <!-- Content wrapper -->
+            <div class="content-wrapper">
+                <!-- Content -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                                <div class="container-fluid">
+                                <main role="main" class="pb-3 mt-3">
+                                    @RenderBody()
+                                </main>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- / Content -->
+
+                <!-- Footer -->
+                    @Html.Partial("_Footer")
+                <!-- / Footer -->
+            </div>
+            <!-- Content wrapper -->
+        </div>
+    </div>
+</div>
+<!-- / Layout wrapper -->
+
+<!-- Core JS -->
+<!-- build:js assets/vendor/js/core.js -->
+<script src="~/lib/theme/vendor/libs/jquery/jquery.js"></script>
+<script src="~/lib/theme/vendor/libs/popper/popper.js"></script>
+<script src="~/lib/theme/vendor/js/bootstrap.js"></script>
+<script src="~/lib/theme/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+<script src="~/lib/theme/vendor/js/menu.js"></script>
+    <script src="~/script2.js"></script>
+<!-- endbuild -->
+<!-- Vendors JS -->
+<script src="~/lib/theme/vendor/libs/apex-charts/apexcharts.js"></script>
+
+<!-- Main JS -->
+<script src="~/lib/theme/js/main.js"></script>
+
+<!-- Page JS -->
+    <script src="~/lib/theme/js/dashboards-analytics.js"></script>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>
+                

@@ -1,0 +1,68 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Pagename"] = "Data";
+}
+
+<div class="card">
+    <div class="d-flex align-items-center justify-content-between">
+        <h5 class="card-header">Data User</h5>
+        <a class="btn btn-primary btn-sm me-4" asp-controller="Datauser" asp-action="AddUser" type="submit"><i class='bx bx-plus-circle'></i><span>Add New User</span></a>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive text-nowrap">
+            <table class="table table-bordered text-center">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Full Name</th>
+                        <th>Username</th>
+                        <th>Password</th>
+                        <th>Level</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center">
+                    <tr>
+                        <td>1</td>
+                        <td>Bryan Doe</td>
+                        <td>bryan</td>
+                        <td>********</td>
+                        <td>admin</td>
+                        <td><span class="badge bg-label-primary me-1">Active</span></td>
+                        <td class="d-flex align-items-center ">
+                            <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
+                            <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bryan Doe</td>
+                        <td>bryan</td>
+                        <td>********</td>
+                        <td>admin</td>
+                        <td><span class="badge bg-label-primary me-1">Active</span></td>
+                        <td class="d-flex align-items-center ">
+                            <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
+                            <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Bryan Doe</td>
+                        <td>bryan</td>
+                        <td>********</td>
+                        <td>Spv</td>
+                        <td><span class="badge bg-label-primary me-1">Active</span></td>
+                        <td class="d-flex align-items-center ">
+                            <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
+                            <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,59 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model ProductionMonitoring.Models.AddPlanViewModel
+
+<div class="row">
+    <div class="col-xl">
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Add Planning</h5>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    <div class="mb-3">
+                        <label for="html5-date-input" class="col-md-2 col-form-label">Date</label>
+                        <input class="form-control" type="date" value="dd/mm/yyyy" id="html5-date-input" asp-for="Date"/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="basic-default-company">Model Code</label>
+                        <input type="text" class="form-control" id="basic-default-company" placeholder="Model Code" asp-for="ModelCode" />
+                        @* <div class="form-text">You can use letters, numbers & periods</div> *@
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="basic-default-company">Model Number</label>
+                        <input type="text" class="form-control" id="basic-default-company" placeholder="Model Number" asp-for="ModelNumber"/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="basic-default-company">Cycle Time</label>
+                        <input type="number" class="form-control" id="basic-default-company" placeholder="00.00" asp-for="Cycletime"/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="basic-default-company">Plan</label>
+                        <input type="number" class="form-control" id="basic-default-company" placeholder="000" asp-for="Plann"/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="basic-default-company">Actual</label>
+                        <input type="number" class="form-control" id="basic-default-company" placeholder="000" asp-for="Actual"/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="basic-default-company">Balancing</label>
+                        <input type="number" class="form-control" id="basic-default-company" placeholder="000" asp-for="Balancing"/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlSelect1" class="form-label">Status</label>
+                        <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example" asp-for="Status">
+                            <option selected>Status</option>
+                            <option value="1">Active</option>
+                            <option value="2">Inactive</option>
+                        </select>
+                    </div>
+                    <a type="submit" class="btn btn-primary" asp-controller="Plan" asp-action="Plan">Send</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

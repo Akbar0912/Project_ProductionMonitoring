@@ -1,0 +1,78 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Pagename"] = "Model";
+}
+
+<div class="card">
+        <div class="d-flex align-items-center justify-content-between mx-3">
+            <h5 class="card-header">Model Number</h5>
+            <a class="btn btn-primary btn-sm" asp-controller="ModelNumber" asp-action="Add" type="submit"><i class='bx bx-plus-circle'></i><span class="ms-2">Add new Model</span></a>
+        </div>
+    <div class="table-responsive text-nowrap">
+        <table class="table table-striped">
+            <thead class="text-center">
+                <tr>
+                    <th>Model Number</th>
+                    <th>Model Code</th>
+                    <th>Cycle Time</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0 text-center">
+                <tr>
+                    <td>NA-W86BBZ2D</td>
+                    <td>3N</td>
+                    <td>34.0</td>
+                    <td><span class="badge bg-label-success me-1">Active</span></td>
+                    <td class="d-flex align-items-center ">
+                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
+                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>NA-W86BBZ2H</td>
+                    <td>3N</td>
+                    <td>34.0</td>
+                    <td><span class="badge bg-label-secondary me-1">Inactive</span></td>
+                    <td class="d-flex align-items-center ">
+                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
+                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>NA-W86FCU1G</td>
+                    <td>3N</td>
+                    <td>33.0</td>
+                    <td><span class="badge bg-label-success me-1">Active</span></td>
+                    <td class="d-flex align-items-center ">
+                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
+                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>NA-W96BBZ2H</td>
+                    <td>3N</td>
+                    <td>34.0</td>
+                    <td><span class="badge bg-label-success me-1">Active</span></td>
+                    <td class="d-flex align-items-center ">
+                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
+                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>NA-W96FCU1G</td>
+                    <td>3N</td>
+                    <td>34.0</td>
+                    <td><span class="badge bg-label-success me-1">Active</span></td>
+                    <td class="d-flex align-items-center ">
+                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
+                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
