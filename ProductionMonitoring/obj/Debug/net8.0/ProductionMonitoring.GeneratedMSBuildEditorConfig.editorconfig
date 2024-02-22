@@ -18,12 +18,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\Perkuliahan\Semester6\Panasonic\ProductionMonitoring\ProductionMonitoring
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/DailyReport/AddMonth.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlSZXBvcnRcQWRkTW9udGguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/DailyReport/AddNote.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlSZXBvcnRcQWRkTm90ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/DailyReport/DailyMonth.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlSZXBvcnRcRGFpbHlNb250aC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/DailyReport/DailyReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlSZXBvcnRcRGFpbHlSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/DataUser/AddUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YVVzZXJcQWRkVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/DataUser/DataUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YVVzZXJcRGF0YVVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Home/Display.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXNwbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Home/Index.cshtml]
@@ -48,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Monitoring/Monitoring.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uaXRvcmluZ1xNb25pdG9yaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Monitoring/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uaXRvcmluZ1xTaG93LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Perkuliahan/Semester6/Panasonic/ProductionMonitoring/ProductionMonitoring/Views/Plan/Add.cshtml]

@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="row">
+    <div class="col-xl">
+        <div class="card mb-5">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Add Production Monthly</h5>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    <div class="mb-3">
+                        <label class="form-label" for="basic-default-company">Model</label>
+                        <input class="form-control" aria-label="With textarea" placeholder="Model"/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="basic-default-company">P/O</label>
+                        <input type="text" class="form-control" id="basic-default-company" />
+                        @* <div class="form-text">You can use letters, numbers & periods</div> *@
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="basic-default-company">PROD</label>
+                        <input type="text" class="form-control" id="basic-default-company" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="basic-default-company">Date</label>
+                        <input type="date" class="form-control" id="basic-default-company" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="basic-default-company">Value</label>
+                        <input type="text" class="form-control" id="basic-default-company" placeholder="000"/>
+                    </div>
+                    <a type="submit" class="btn btn-primary" asp-controller="DailyReport" asp-action="DailyMonth">Submit</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

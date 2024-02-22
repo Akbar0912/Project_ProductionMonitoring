@@ -1,0 +1,315 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["PageName"] = "Report";
+}
+
+<div class="card">
+    <div class="d-flex justify-content-between align-items-center">
+
+        <div class="d-flex col-6 flex-column me-auto">
+            <h5 class="card-header fw-bold">Production Daily Report</h5>
+        </div>
+            <a class="btn btn-primary btn-sm text-white w-100 me-3" asp-controller="DailyReport" asp-action="AddNote" type="submit"><i class='bx bx-plus-circle'></i><span class="ms-2">Add Noted</span></a>
+            <a class="btn btn-primary btn-sm text-white w-100 me-3" asp-controller="DailyReport" asp-action="AddNote" type="submit"><i class='bx bxs-download'></i><span class="ms-2">Download</span></a>
+        <div class="">
+            <input class="form-control rounded border border-dark-subtle me-3" style="width: 200px;" type="date" value="dd/mm/yyyy" id="html5-date-input" />
+        </div>
+    </div>
+<div class="d-flex mb-4" style="height: 300px;">
+    <div class="text-nowrap me-3">
+        <table class="table table-striped table-bordered">
+            <thead class="text-center">
+                <tr class="bg-secondary">
+                    <th colspan="2" class="text-white fw-bolder">Plan Produksi [P0]</th>
+                    <th colspan="2" class="text-white fw-bolder">PROD [Hari Ini]</th>
+                </tr>
+                <tr class="">
+                    <th class="fw-bolder fs-6">Model Code</th>
+                    <th class="fw-bolder fs-6">Qty</th>
+                    <th class="fw-bolder fs-6">Model</th>
+                    <th class="fw-bolder fs-6">QTY (Plan)</th>
+                    <th class="fw-bolder fs-6">Actual <br />Hasil Prod</th>
+                    <th class="fw-bolder fs-6">DIFF</th>
+
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0 text-center">
+                <tr>
+                    <td>W86BB-D</td>
+                    <td>250</td>
+                    <td>W50B1</td>
+                    <td>29</td>
+                    <td>29</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>W125FC</td>
+                    <td>39</td>
+                    <td>W78BCV</td>
+                    <td>176</td>
+                    <td>153</td>
+                    <td class="text-danger">-23</td>
+                </tr>
+                <tr>
+                    <td>W145FC</td>
+                    <td>342</td>
+                    <td>W86BBD</td>
+                    <td>285</td>
+                    <td>285</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td class="">0</td>
+                    <td>0</td>
+                    <td>W50B1</td>
+                    <td>38</td>
+                    <td>30</td>
+                    <td class="text-danger">-8</td>
+                </tr>
+                <tr class="fw-bolder fs-6">
+                    <td class="">Total</td>
+                    <td>631</td>
+                    <td>Total</td>
+                    <td>528</td>
+                    <td class="text-danger">497</td>
+                    <td class="text-danger">-31</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="table-responsive text-nowrap w-100">
+        <table class="table table-striped table-bordered ">
+            <thead class="text-center sticky-top bg-light">
+                <tr class="">
+                    <th class="fw-bolder fs-6">No</th>
+                    <th class="fw-bolder fs-6">Problem Harian</th>
+                    <th colspan="2" class="fw-bolder fs-6">Time</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0 ">
+                <tr>
+                    <td>1</td>
+                    <td>Apel Bulanan PMI</td>
+                    <td>07.00 - 07.48</td>
+                    <td>48</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Operator tidak masuk : Dina (CT)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>W50B1 kurang 38 set, panel A habis atau belum datang lagi</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Ganti model W50B1-W78BCV</td>
+                    <td>08.06 - 08.32</td>
+                    <td>26</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Line stop => Nozzle W78 kurang 23 pcs (Semi), Mendadak <br />ganti mdl W50B => menaikan produk semi japan W50B1 13 set</td>
+                    <td>10.33 - 11.01</td>
+                    <td>28</td>
+                </tr>
+                 <tr>
+                    <td>6</td>
+                    <td>Line stop => Nozzle W78 kurang 23 pcs (Semi), Mendadak <br />ganti mdl W50B => menaikan produk semi japan W50B1 13 set</td>
+                    <td>10.33 - 11.01</td>
+                    <td>28</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="d-flex mt-3" style="height: 400px;">
+    <div class="table-responsive text-nowrap me-3 col-lg-6 col-md-4">
+        <table class="table table-striped table-bordered">
+        <thead class="text-center">
+            <tr class="bg-secondary sticky-top">
+                <th class="fw-bolder fs-6 text-white">PROD Plan</th>
+                <th class="fw-bolder fs-6 text-white">Plan PO <br />(Official)</th>
+                <th class="fw-bolder fs-6 text-white">Plan <br />(Hari ini)</th>
+            </tr>
+            <tr class="">
+                <th class="text-start fw-bolder fs-6">Plan Tgl :</th>
+                <th>1</th>
+                <th>Feb-24</th>
+            </tr>
+        </thead>
+        <tbody class="table-border-bottom-0 text-center">
+            <tr>
+                <td class="text-start">Plan</td>
+                <td>631</td>
+                <td>528</td>
+            </tr>
+            <tr>
+                <td class="text-start">Actual</td>
+                <td>497</td>
+                <td>497</td>
+            </tr>
+            <tr>
+                <td class="text-start">Diff</td>
+                <td>(134)</td>
+                <td>(31)</td>
+            </tr>
+            <tr class="">
+                <th class="text-start fw-bolder fs-6">ACCUM SD TGL :</th>
+                <th>17</th>
+                <th>Feb-24</th>
+            </tr>
+            <tr>
+                <td class="text-start">Plan</td>
+                <td>5,303</td>
+                <td>5,436</td>
+            </tr>
+            <tr>
+                <td class="text-start">Actual</td>
+                <td>4,433</td>
+                <td>4,433</td>
+            </tr>
+            <tr>
+                <td class="text-start">Diff</td>
+                <td>(870)</td>
+                <td>(1,003)</td>
+            </tr>
+            <tr class="">
+                <th class="text-center fw-bolder fs-6">PRODUKSI S/D AKHIR BULAN</th>
+                <th>17</th>
+                <th>Feb-24</th>
+            </tr>
+            <tr>
+                <td class="text-start">Plan</td>
+                <td>10,511</td>
+                <td>10,477</td>
+            </tr>
+            <tr>
+                <td class="text-start">Actual</td>
+                <td>4,433</td>
+                <td>4,433</td>
+            </tr>
+            <tr>
+                <td class="text-start">Diff</td>
+                <td>(6,078)</td>
+                <td>(6,044)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    <div class="table-responsive text-nowrap w-100">
+        <table class="table table-striped table-bordered">
+                <caption class="text-start text-uppercase fw-bold mt-3 text-danger">
+                    <button type="button"
+                            class="btn btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target="#backDropModal">
+                        Note :
+                    </button>
+                    <div class="modal fade" id="backDropModal" data-bs-backdrop="static" tabindex="-1">
+                        <div class="modal-dialog">
+                            <form class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="backDropModalTitle">ADD NOTE</h5>
+                                    <button type="button"
+                                            class="btn-close"
+                                            data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col mb-3">
+                                            <label for="nameBackdrop" class="form-label">Note</label>
+                                            <textarea class="form-control" id="nameBackdrop" aria-label="With textarea" placeholder="write here..."></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                        Close
+                                    </button>
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    Plan Revisi P1
+                </caption>
+            <thead class="text-center sticky-top bg-light">
+                <tr class="">
+                    <th class="fw-bolder fs-6">No</th>
+                    <th class="fw-bolder fs-6">Plan Produksi</th>
+                    <th class="fw-bolder fs-6">Diff</th>
+                    <td class="fw-bolder fs-6">Plan</td>
+                    <th class="fw-bolder fs-6">Actual</th>
+                    <th class="fw-bolder fs-6">Remain</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0 text-center">
+                <tr>
+                    <td>1</td>
+                    <td>NA-W76BBZ2-H</td>
+                    <td>0</td>
+                    <td>125</td>
+                    <td>-</td>
+                    <td>-125 <span>sets</span></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>NA-W76BBZ2-H</td>
+                    <td>0</td>
+                    <td>3,390</td>
+                    <td>-</td>
+                    <td>-125 <span>sets</span></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>NA-W76BBZ2-H</td>
+                    <td>0</td>
+                    <td>18</td>
+                    <td>-</td>
+                    <td>-125 <span>sets</span></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>NA-W76BBZ2-H</td>
+                    <td>0</td>
+                    <td>176</td>
+                    <td>-</td>
+                    <td>-125 <span>sets</span></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>NA-W76BBZ2-H</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>-</td>
+                    <td>-125 <span>sets</span></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>NA-W76BBZ2-H</td>
+                    <td>0</td>
+                    <td>2,024</td>
+                    <td>-</td>
+                    <td>-125 <span>sets</span></td>
+                </tr>
+                <tr class="fw-bolder fs-6">
+                     <td colspan="2">Total</td>
+                     <td>(34)</td>
+                     <td>10,511</td>
+                     <td>4,433</td>
+                     <td>6,044 <span>sets</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
