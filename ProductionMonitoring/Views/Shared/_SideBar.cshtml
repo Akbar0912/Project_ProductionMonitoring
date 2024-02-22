@@ -26,53 +26,82 @@
                                 <span class="text">Summary</span>
                             </a>
                         </li>
+                        <li class="active">
+                            <a >
+                                <i class="icon bx bx-receipt"></i>
+                                <span class="text">Daily Report</span>
+                                <i class='arrow bx bx-chevron-down'></i>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a asp-controller ="DailyReport" asp-action="DailyReport">
+                                        <i class="icon bx bx-receipt"></i>
+                                        <span class="text">Report Daily</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-controller="DailyReport" asp-action="DailyMonth">
+                                        <i class="icon bx bx-receipt"></i>
+                                        <span class="text">Report Month</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="active">
+                            <a asp-controller="Plan" asp-action="Plan">
+                                <i class='icon bx bx-line-chart'></i>
+                                <span class="text">Planning</span>
+                            </a>
+                        </li>
                         <li>
-                            <a class="" asp-controller="Plan" asp-action="Plan" >
-                                <i class="icon bx bx-grid-alt"></i>
+                            <a>
+                                <i class="icon bx bx-box"></i>
                                 <span class="text">Production</span>
                                 <i class='arrow bx bx-chevron-down'></i>
                             </a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="#">
+                                    <a asp-controller="Production" asp-action="Day">
+                                        <i class="icon bx bxs-calendar"></i>
                                         <span class="text">Daily</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a asp-controller="Production" asp-action="Month">
+                                        <i class="icon bx bxs-moon"></i>
                                         <span class="text">Month</span>
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li class="active">
-                            <a href="#">
-                                <i class="icon bx bx-grid-alt"></i>
-                                <span class="text">Summary</span>
+                            <a asp-controller="ModelNumber" asp-action="ModelNumber">
+                                <i class="icon bx bxs-package"></i>
+                                <span class="text">Model Number</span>
                             </a>
                         </li>
                         <li class="active">
-                            <a href="#">
-                                <i class="icon bx bx-grid-alt"></i>
-                                <span class="text">Summary</span>
+                            <a asp-action="Monitoring" asp-controller="Monitoring">
+                                <i class="icon bx bx-desktop"></i>
+                                <span class="text">Monitoring</span>
                             </a>
                         </li>
                         <li class="active">
-                            <a href="#">
-                                <i class="icon bx bx-grid-alt"></i>
-                                <span class="text">Summary</span>
+                            <a asp-action="WorkTime" asp-controller="WorkTime">
+                                <i class="icon bx bx-time"></i>
+                                <span class="text">Work Time</span>
                             </a>
                         </li>
                         <li class="active">
-                            <a href="#">
-                                <i class="icon bx bx-grid-alt"></i>
-                                <span class="text">Summary</span>
+                            <a asp-controller="DataUser" asp-action="DataUser">
+                                <i class="icon bx bx-user"></i>
+                                <span class="text">Data User</span>
                             </a>
                         </li>
                         <li class="active">
-                            <a href="#">
-                                <i class="icon bx bx-grid-alt"></i>
-                                <span class="text">Summary</span>
+                            <a asp-controller="Login" asp-action="Login" class="text-danger">
+                                <i class="icon bx bx-log-out"></i>
+                                <span class="text">Logout</span>
                             </a>
                         </li>
                     </ul>

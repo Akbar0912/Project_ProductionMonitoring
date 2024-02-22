@@ -28,5 +28,10 @@ namespace ProductionMonitoring.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult Display()
+        {
+            return View();
+        }
     }
 }
