@@ -4,21 +4,11 @@
 @{
     ViewData["Pagename"] = "Plan";
 }
-<div class="page-heading">
-    <div class="d-flex justify-content-between align-items-center mb-3 flex-row">
-        <div class="d-flex flex-column">
-            <h3 class="mb-0">Planning</h3>
-        </div>
-        <a class="btn btn-primary btn-sm text-white" asp-controller="Plan" asp-action="Add" type="submit"><i class='bx bx-plus-circle'></i><span class="ms-2">Add New Plan</span></a>
-    </div>
-</div>
 
 <div class="card">
     <div class="d-flex justify-content-between align-items-center px-3">
         <div class="d-flex align-items-center justify-content-between">
-            <h5 class="card-header">Production Plan</h5>
-        </div>
-        <div class="justify-content-end d-flex">
+            <h3 class="card-header">Production Plan</h3>
             <div class="nav-item d-flex align-items-center">
                 <i class="bx bx-search fs-4 lh-0"></i>
                 <input type="text"
@@ -26,22 +16,29 @@
                        placeholder="Search..."
                        aria-label="Search..." />
             </div>
-            <input class="rounded border border-dark-subtle ms-3" type="date" value="dd/mm/yyyy" id="html5-date-input" />
+        </div>
+        <div class="justify-content-center align-items-center d-flex">
+            <div class="col-6">
+                <a class="btn btn-primary btn-sm text-white" asp-controller="Plan" asp-action="Add" type="submit"><i class='bx bx-plus-circle'></i><span class="ms-2">Add New Plan</span></a> 
+            </div>
+            <div>
+                <input class="form-control rounded border border-dark-subtle" type="date" value="dd/mm/yyyy" id="html5-date-input" />
+            </div>
         </div>
     </div>
     <div class="table-responsive text-nowrap">
         <table class="table table-striped">
             <thead class="text-center">
                 <tr>
-                    <th>Date</th>
-                    <th>Model Code</th>
-                    <th>Model Number</th>
-                    <th>Cycle Time</th>
-                    <th>Plan</th>
-                    <th>Actual</th>
-                    <th>Balancing</th>
-                    <th>Status</th>
-                    <th>Actions</th>
+                    <th class="fw-bolder fs-6">Date</th>
+                    <th class="fw-bolder fs-6">Model Code</th>
+                    <th class="fw-bolder fs-6">Model Number</th>
+                    <th class="fw-bolder fs-6">Cycle Time</th>
+                    <th class="fw-bolder fs-6">Plan</th>
+                    <th class="fw-bolder fs-6">Actual</th>
+                    <th class="fw-bolder fs-6">Balancing</th>
+                    <th class="fw-bolder fs-6">Status</th>
+                    <th class="fw-bolder fs-6">Actions</th>
                 </tr>
             </thead>
             <tbody class="table-border-bottom-0 text-center">
@@ -55,8 +52,8 @@
                     <td>0</td>
                     <td><span class="badge bg-label-primary me-1">ON PROGRESS</span></td>
                     <td class="d-flex align-items-center justify-content-center">
-                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
-                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
+                        <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
+                        <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
                     </td>
                 </tr>
                 <tr>
@@ -69,8 +66,8 @@
                     <td>0</td>
                     <td><span class="badge bg-label-success me-1">FINISH</span></td>
                     <td class="d-flex align-items-center justify-content-center">
-                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
-                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
+                        <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
+                        <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
                     </td>
                 </tr>
                 <tr>
@@ -82,9 +79,9 @@
                     <td>0</td>
                     <td>0</td>
                     <td><span class="badge bg-label-info me-1">NEXT PLAN</span></td>
-                    <td class="d-flex align-items-center ">
-                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
-                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
+                    <td class="d-flex align-items-center justify-content-center">
+                        <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
+                        <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
                     </td>
                 </tr>
                 <tr>
@@ -96,9 +93,9 @@
                     <td>0</td>
                     <td>0</td>
                     <td><span class="badge bg-label-info me-1">NEXT PLAN</span></td>
-                    <td class="d-flex align-items-center ">
-                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
-                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
+                    <td class="d-flex align-items-center justify-content-center ">
+                        <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
+                        <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
                     </td>
                 </tr>
                 <tr>
@@ -110,9 +107,9 @@
                     <td>0</td>
                     <td>0</td>
                     <td><span class="badge bg-label-info me-1">NEXT PLAN</span></td>
-                    <td class="d-flex align-items-center ">
-                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
-                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
+                    <td class="d-flex align-items-center justify-content-center ">
+                        <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
+                        <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
                     </td>
                 </tr>
                 <tr>
@@ -124,9 +121,9 @@
                     <td>200</td>
                     <td>0</td>
                     <td><span class="badge bg-label-warning me-1">SHORTAGE</span></td>
-                    <td class="d-flex align-items-center ">
-                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
-                        <a class="dropdown-item px-0 py-0" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
+                    <td class="d-flex align-items-center justify-content-center ">
+                        <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt"></i></a>
+                        <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash text-danger"></i></a>
                     </td>
                 </tr>
             </tbody>

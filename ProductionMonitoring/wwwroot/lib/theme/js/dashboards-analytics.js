@@ -391,16 +391,16 @@
     }
 
 
-    // Year Statistics Chart
+    // Month Statistics Chart
     // -------------------------------------------------------------------
 
     var options = {
         series: [{
             name: 'Actual',
-            data: [44, 55, 41, 67, 22, 43, 54, 67, 45, 34, 23, 23]
+            data: [20000, 15000, 19000, 17000, 18000, 16000, 23000, 20000, 14000, 10000, 19000, 25000]
         }, {
             name: 'Plan',
-            data: [13, 23, 44, 55, 41, 67, 22, 43, 54, 67, 45, 34]
+            data: [5000, 0, 1000, 0, 0, 0, 1000, 0, 1000, 0, 0, 0]
         }],
         chart: {
             type: 'bar',
@@ -449,7 +449,11 @@
                 }
             },
         }, dataLabels: {
-            enabled: false // Menonaktifkan label data untuk semua seri
+            enabled: true,
+            style: {
+                fontSize: '12px',
+                fontWeight: 'bold',
+            }, // Menonaktifkan label data untuk semua seri
         },
         xaxis: {
             categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
@@ -543,10 +547,10 @@
     var options = {
         series: [{
             name: 'Actual',
-            data: [44, 55, 41, 67, 22, 43, 54, 67, 45, 34, 23, 23, 13, 23, 44, 55, 41, 67, 22, 43, 54, 67, 45, 34, 45,32,56,65,24,12,67]
+            data: [2500, 1000, 1400, 900, 700, 1000, 0, 700, 300, 400, 500, 1900, 1200, 1100, 400, 500, 200, 800, 900, 300, 400, 1000, 2000, 1800, 1600, 700, 500, 300, 500, 700, 1900]
         }, {
             name: 'Plan',
-            data: [13, 23, 44, 55, 41, 67, 22, 43, 54, 67, 45, 34, 13, 23, 44, 55, 41, 67, 22, 43, 54, 67, 45, 34, 45, 32, 56, 65, 24, 12, 67]
+            data: [0, 500, 0, 100, 700, 200, 2500, 1000, 0, 0, 0, 600, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1000, 500, 100, 0, 0, 0, 0, 0, 0, 0]
         }],
         chart: {
             type: 'bar',
@@ -588,14 +592,18 @@
                     total: {
                         enabled: true,
                         style: {
-                            fontSize: '13px',
+                            fontSize: '8px',
                             fontWeight: 900
                         }
                     }
                 }
             },
         }, dataLabels: {
-            enabled: false // Menonaktifkan label data untuk semua seri
+            enabled: true,
+            style: {
+                fontSize: '9px',
+                fontWeight: 'bold',
+            }, // Menonaktifkan label data untuk semua seri
         },
         xaxis: {
             categories: ['1', '2', '3', '4', '5', '6', '7', '8', '9','10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27' , '28', '29', '30', '31'],

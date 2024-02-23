@@ -14448,7 +14448,7 @@ body {
   padding-right: 1rem;
   padding-left: 1rem;
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .container,
 .container-fluid,
 .container-sm,
@@ -14459,7 +14459,7 @@ body {
     padding-right: 1.625rem;
     padding-left: 1.625rem;
   }
-}
+}*/
 
 .img-thumbnail {
   position: relative;
@@ -15218,7 +15218,7 @@ html:not(.layout-menu1-fixed) .menu1-inner-shadow {
 
 .layout-content-navbar .layout-page {
   flex-basis: 100%;
-  flex-direction: column;
+/*  flex-direction: column;*/
   width: 0;
   min-width: 0;
   max-width: 100%;

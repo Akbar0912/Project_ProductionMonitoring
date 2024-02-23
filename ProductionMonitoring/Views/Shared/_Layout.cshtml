@@ -46,7 +46,7 @@
     <script src="~/lib/theme/js/config.js"></script>
 </head>
 
-<body style="margin: 0px; padding:0px;">
+<body style="margin: 0px; padding:0px; overflow-x: hidden;">
 <div class="layout-wrapper layout-content-navbar">
     <div class="layout-container">
         <!-- Menu -->
@@ -62,11 +62,9 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col">
-                                <div class="container-fluid">
                                 <main role="main" class="pb-3 mt-3">
                                     @RenderBody()
                                 </main>
-                            </div>
                         </div>
                     </div>
                 </div>
