@@ -3,14 +3,14 @@
 *@
 @{
 }
-    <div class="container pe-0">
+    <div class="container pe-0 @("Viewbag.PageName" == "Display" ? "d-none" : "")">
         <aside class="sidebar active">
             <div class="menu-btn">
                 <i class='bx bxs-left-arrow-circle'></i>
             </div>
             <div class="head">
                 <div class="user-img">
-                <a asp-controller="User" asp-action="Profile"> <img src="~/lib/theme/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" /></a>
+                <a asp-controller="User" asp-action="Profile"> <img src="~/lib/theme/img/avatars/1.png" class="w-px-40 h-auto rounded-circle" /></a>
                 </div>
                 <div class="user-details">
                     <p class="title">Developer</p>

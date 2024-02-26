@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\assets\icon\" />
+    <Folder Include="wwwroot\js\" />
   </ItemGroup>
 
 </Project>
