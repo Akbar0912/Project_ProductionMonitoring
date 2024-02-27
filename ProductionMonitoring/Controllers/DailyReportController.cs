@@ -23,5 +23,11 @@ namespace ProductionMonitoring.Controllers
         {
             return View();
         }
+
+        public IActionResult MonthResult()
+        {
+            ViewData["Pagename"] = "MonthResult";
+            return View();
+        }
     }
 }

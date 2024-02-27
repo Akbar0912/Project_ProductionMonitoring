@@ -31,6 +31,7 @@ namespace ProductionMonitoring.Controllers
 
         public IActionResult Display()
         {
+            ViewData["Pagename"] = "Display";
             return View();
         }
     }

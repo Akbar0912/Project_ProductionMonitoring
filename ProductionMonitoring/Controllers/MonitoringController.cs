@@ -8,5 +8,11 @@ namespace ProductionMonitoring.Controllers
         {
             return View();
         }
+
+        public IActionResult Show() 
+        {
+            ViewData["Pagename"] = "Show";
+            return View();
+        }
     }
 }

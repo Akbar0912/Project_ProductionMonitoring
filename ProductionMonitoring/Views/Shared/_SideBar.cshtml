@@ -2,8 +2,9 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+   
 }
-    <div class="container pe-0 @("Viewbag.PageName" == "Display" ? "d-none" : "")">
+<div class="container pe-0 @(ViewData["PageName"] == "Show" || ViewData["PageName"] == "Display"  ? "d-none" : "")">
         <aside class="sidebar active">
             <div class="menu-btn">
                 <i class='bx bxs-left-arrow-circle'></i>
@@ -43,6 +44,12 @@
                                     <a asp-controller="DailyReport" asp-action="DailyMonth">
                                         <i class="icon bx bx-receipt"></i>
                                         <span class="text">Report Month</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-controller="DailyReport" asp-action="MonthResult">
+                                        <i class="icon bx bx-receipt"></i>
+                                        <span class="text">Monthly Result</span>
                                     </a>
                                 </li>
                             </ul>

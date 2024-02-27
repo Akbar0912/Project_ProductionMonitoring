@@ -405,6 +405,7 @@
         chart: {
             type: 'bar',
             width: '100%',
+            height: 300,
             stacked: true,
             toolbar: {
                 show: true
@@ -555,6 +556,7 @@
         chart: {
             type: 'bar',
             width: '100%',
+            height: 300,
             stacked: true,
             toolbar: {
                 show: true
