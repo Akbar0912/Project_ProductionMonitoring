@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProductionMonitoring.Data;
 using ProductionMonitoring.Models;
-using ProductionMonitoring.Models.Entities;
 
 namespace ProductionMonitoring.Controllers
 {

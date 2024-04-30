@@ -4,8 +4,6 @@
 @{
 }
 
-@model ProductionMonitoring.Models.AddPlanViewModel
-
 <div class="row">
     <div class="col-xl">
         <div class="card mb-4">
@@ -16,36 +14,36 @@
                 <form method="post">
                     <div class="mb-3">
                         <label for="html5-date-input" class="col-md-2 col-form-label">Date</label>
-                        <input class="form-control" type="date" value="dd/mm/yyyy" id="html5-date-input" asp-for="Date"/>
+                        <input class="form-control" type="date" value="dd/mm/yyyy" id="html5-date-input"/>
                     </div>
                     <div class="mb-3">
                         <label class="form-label" for="basic-default-company">Model Code</label>
-                        <input type="text" class="form-control" id="basic-default-company" placeholder="Model Code" asp-for="ModelCode" />
+                        <input type="text" class="form-control" id="basic-default-company" placeholder="Model Code"/>
                         @* <div class="form-text">You can use letters, numbers & periods</div> *@
                     </div>
                     <div class="mb-3">
                         <label class="form-label" for="basic-default-company">Model Number</label>
-                        <input type="text" class="form-control" id="basic-default-company" placeholder="Model Number" asp-for="ModelNumber"/>
+                        <input type="text" class="form-control" id="basic-default-company" placeholder="Model Number"/>
                     </div>
                     <div class="mb-3">
                         <label class="form-label" for="basic-default-company">Cycle Time</label>
-                        <input type="number" class="form-control" id="basic-default-company" placeholder="00.00" asp-for="Cycletime"/>
+                        <input type="number" class="form-control" id="basic-default-company" placeholder="00.00"/>
                     </div>
                     <div class="mb-3">
                         <label class="form-label" for="basic-default-company">Plan</label>
-                        <input type="number" class="form-control" id="basic-default-company" placeholder="000" asp-for="Plann"/>
+                        <input type="number" class="form-control" id="basic-default-company" placeholder="000"/>
                     </div>
                     <div class="mb-3">
                         <label class="form-label" for="basic-default-company">Actual</label>
-                        <input type="number" class="form-control" id="basic-default-company" placeholder="000" asp-for="Actual"/>
+                        <input type="number" class="form-control" id="basic-default-company" placeholder="000" />
                     </div>
                     <div class="mb-3">
                         <label class="form-label" for="basic-default-company">Balancing</label>
-                        <input type="number" class="form-control" id="basic-default-company" placeholder="000" asp-for="Balancing"/>
+                        <input type="number" class="form-control" id="basic-default-company" placeholder="000"/>
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlSelect1" class="form-label">Status</label>
-                        <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example" asp-for="Status">
+                        <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
                             <option selected>Status</option>
                             <option value="1">Active</option>
                             <option value="2">Inactive</option>
